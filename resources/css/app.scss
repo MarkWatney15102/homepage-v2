@@ -1,0 +1,7 @@
+@use 'bulma';
+@use "global";
+@use "footer";
+
+[x-cloak] {
+    display: none;
+}

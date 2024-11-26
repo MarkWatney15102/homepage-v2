@@ -1,0 +1,40 @@
+.footer {
+  background-color: #161B22;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  margin-top: 28vh;
+}
+
+.no-deco li,
+.no-deco ol,
+.no-deco ul,
+.no-deco a
+{
+  text-decoration: none;
+  list-style-type:none;
+}
+
+.social-media {
+  margin-top: 15px !important;
+  margin-right: 20px;
+}
+
+.social-media li {
+  display: inline;
+  margin-left: 25px;
+}
+
+.social-media i {
+  font-size: 30px;
+}
+
+.social-media li a {
+  color: #ffffff;
+  transition: .3s ease all;
+}
+
+.social-media li a:hover {
+  color: #4e555b;
+}

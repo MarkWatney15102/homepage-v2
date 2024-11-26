@@ -1,0 +1,93 @@
+/**
+#4D0EB5 -> Primary
+#FD6387 -> Secondary
+#FF9671 -> Third
+*/
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #000000;
+  height: auto;
+  min-height: 100vh;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: #4D0EB5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.navbar {
+  background-color: #000000;
+}
+
+.navbar-item {
+  color: white;
+}
+
+.circle:hover {
+  color: #FD6387;
+  transition: color ease-in .15s;
+}
+
+.navbar-item:hover {
+  color: #FD6387 !important;
+  background-color: #000000 !important;
+  transition: color ease-in .15s;
+}
+
+.company-image {
+  border-radius: 50%;
+  width: 50%;
+}
+
+.is-border-10-px {
+  border-radius: 10px;
+}
+
+.is-border-10-px-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.is-border-10-px-bottom {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.cv-background-color {
+  background-image: linear-gradient(to right, #4D0EB5, #FD6387, #FF9671);
+}
+
+.cv-background-color-reverse {
+  background-image: linear-gradient(to right, #C1121C, #B40754, #4D0EB5);
+}
+
+.ul-bullet {
+  list-style-type: disc;
+}
+
+.is-size-jumbo {
+  font-size: 4.5rem;
+}
+
+.is-color-custom-primary {
+  color: #4D0EB5;
+}
